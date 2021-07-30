@@ -475,6 +475,7 @@ body {
 
 @media screen and (max-width: 960px) {
   .navbar .navbar__container {
+    align-items: center;
     display: flex;
     height: 80px;
     z-index: 1;
@@ -522,9 +523,12 @@ body {
 
   .navbar__toggle {
     cursor: pointer;
+    padding: 4px;
+    margin-top: 4px;
   }
   .navbar__toggle .bar {
     width: 25px;
+    border-radius: 4px;
     height: 3px;
     margin: 5px auto;
     transition: all 300ms ease-in-out;
@@ -544,11 +548,11 @@ body {
   }
 
   #mobile-menu.is-active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(-45deg);
   }
 
   #mobile-menu.is-active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(45deg);
   }
 
   .button {
