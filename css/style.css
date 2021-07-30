@@ -429,5 +429,21 @@ body {
 .navbar .navbar__container .navbar__menu .navbar__item {
   height: 80px;
 }
+.navbar .navbar__container .navbar__menu .navbar__item .navbar__link {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+}
+.navbar .navbar__container .navbar__menu .navbar__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
