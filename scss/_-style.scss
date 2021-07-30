@@ -2,19 +2,23 @@
 @use "typescale"as *;
 
 :root {
-  --clr-bg-main: white;
-  --clr-nav-bg: #202020;
+  --clr-bg-main: #ffd9ce;
+  --clr-nav-bg: #2d2a32;
+  --clr-nav-dark: #1E1C21;
+  --clr-blue: #9395d3;
+  --clr-highlight: #f6f740;
+  --clr-pink-btn: #eb5160;
 }
 
 ::-moz-selection {
   /* Code for Firefox */
-  color: cornflowerblue;
-  background: white;
+  color: white;
+  background: var(--clr-blue);
 }
 
 ::selection {
-  color: cornflowerblue;
-  background: white;
+  color: white;
+  background: var(--clr-blue);
 }
 
 *,
@@ -23,6 +27,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: var(--clr-bg-main);
 }
 
 .button {
@@ -36,20 +44,22 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #f77062;
-  color: #fff;
+  background: var(--clr-bg-main);
+  color: var(--clr-nav-bg);
 }
 
 .button:hover,
 .button:focus {
-  background: #4837ff;
-  transition: all 300ms ease;
+  background: var(--clr-pink-btn);
+  transition: all 175ms ease;
+  color: #fff;
 }
+
 
 .navbar__link:hover,
 .navbar__link:focus {
-  background: #f77062;
-  transition: all 300ms ease;
+  background: var(--clr-pink-btn);
+  transition: all 175ms ease-out;
 }
 
 .navbar {
@@ -79,7 +89,7 @@
       text-decoration: none;
       align-self: center;
       background-color: black;
-      background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+      background-image: linear-gradient(to top, var(--clr-pink-btn) 0%, var(--clr-bg-main) 100%);
       background-size: 100%;
       -webkit-background-clip: text;
       -moz-background-clip: text;
@@ -120,6 +130,7 @@
           i {
             margin-right: 1rem;
             display: none;
+            color: #fff;
           }
         }
       }
@@ -164,7 +175,7 @@
         transition: all 500ms ease;
         height: auto;
         z-index: 0;
-        background: #131313;
+        background: var(--clr-nav-dark);
 
         .navbar__btn {
           padding: 2rem 10rem;
@@ -188,7 +199,7 @@
       }
 
       .navbar__menu.active {
-        background: #131313;
+        background: var(--clr-nav-dark);
         top: 100%;
         opacity: 1;
         transition: all 500ms ease;
@@ -244,4 +255,23 @@
     height: 80px;
     margin: 0;
   }
+}
+
+
+// HERO
+
+.main {
+  background-color: white;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
 }
