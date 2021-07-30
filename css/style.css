@@ -358,7 +358,7 @@ body {
 
 :root {
   --clr-bg-main: white;
-  --clr-nav-bg: pink;
+  --clr-nav-bg: #202020;
 }
 
 ::-moz-selection {
@@ -422,14 +422,14 @@ body {
   display: flex;
   justify-content: space-between;
   height: 80px;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
 }
 .navbar .navbar__container #navbar__logo {
-  font-weight: 400;
+  font-weight: 800;
   font-size: 2rem;
   text-decoration: none;
   align-self: center;
@@ -495,12 +495,12 @@ body {
     top: -1000px;
     opacity: 0;
     transition: all 500ms ease;
-    height: 50vh;
+    height: auto;
     z-index: -1;
     background: #131313;
   }
   .navbar .navbar__container .navbar__menu .navbar__btn {
-    padding-bottom: 2rem;
+    padding: 4.2rem 0 3.2rem 0;
   }
   .navbar .navbar__container .navbar__menu .navbar__item {
     width: 100%;
