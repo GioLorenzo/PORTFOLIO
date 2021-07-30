@@ -1,0 +1,25 @@
+@use "normalize" as *;
+@use "typescale" as *;
+
+:root {
+  --clr-bg-main: white;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: cornflowerblue;
+  background: white;
+}
+
+::selection {
+  color: cornflowerblue;
+  background: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
