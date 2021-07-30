@@ -1,5 +1,6 @@
 @use "normalize"as *;
 @use "typescale"as *;
+@use "keyframes"as *;
 
 :root {
   --clr-bg-main: #ffd9ce;
@@ -9,7 +10,7 @@
   --clr-blue: #9395d3;
   --clr-purple: #b836e7;
   --clr-highlight: #f6f740;
-  --clr-pink-btn: #eb5160;
+  --clr-pink-btn: rgb(235, 81, 96);
   --clr-pink-dark: #e73648;
 }
 
@@ -351,17 +352,28 @@ body {
 
     i {
       position: relative;
-      bottom: 6px;
-      margin-right: 3px;
-      color: rgb(58, 12, 163);
+      margin-right: 10px;
+      color: var(--clr-purple);
       animation: bouncy 400ms alternate-reverse 1s infinite;
     }
 
     h3 {
-      color: #3A0CA3;
+      
+      a {
+        text-decoration: none;
+        color: #fff;
+        background-color: rgba(235, 81, 96, 0.4);
+        padding: 0.25rem 1rem;
+        border-radius: 30px;
+        transition: all 200ms ease;
 
+        &:hover {
+          background: rgba(45, 42, 50, 0.8);
+          color: white;
+        }
+      }
       span {
-        color: #F72585;
+        color: var(--clr-blue);
         margin-left: 10px;
       }
     }

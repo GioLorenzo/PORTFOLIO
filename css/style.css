@@ -358,6 +358,16 @@ body {
   font-weight: 200;
 }
 
+@keyframes bouncy {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+  }
+}
 :root {
   --clr-bg-main: #ffd9ce;
   --clr-nav-bg: rgb(45, 42, 50);
@@ -366,7 +376,7 @@ body {
   --clr-blue: #9395d3;
   --clr-purple: #b836e7;
   --clr-highlight: #f6f740;
-  --clr-pink-btn: #eb5160;
+  --clr-pink-btn: rgb(235, 81, 96);
   --clr-pink-dark: #e73648;
 }
 
@@ -678,16 +688,24 @@ body {
 }
 .meet i {
   position: relative;
-  bottom: 6px;
-  margin-right: 3px;
-  color: #3a0ca3;
+  margin-right: 10px;
+  color: var(--clr-purple);
   animation: bouncy 400ms alternate-reverse 1s infinite;
 }
-.meet h3 {
-  color: #3A0CA3;
+.meet h3 a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(235, 81, 96, 0.4);
+  padding: 0.25rem 1rem;
+  border-radius: 30px;
+  transition: all 200ms ease;
+}
+.meet h3 a:hover {
+  background: rgba(45, 42, 50, 0.8);
+  color: white;
 }
 .meet h3 span {
-  color: #F72585;
+  color: var(--clr-blue);
   margin-left: 10px;
 }
 

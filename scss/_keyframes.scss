@@ -1,0 +1,10 @@
+@keyframes bouncy {
+  0%  {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+  }
+}
