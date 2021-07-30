@@ -3,7 +3,8 @@
 
 :root {
   --clr-bg-main: #ffd9ce;
-  --clr-nav-bg: #2d2a32;
+  --clr-nav-bg: rgb(45, 42, 50);
+  --clr-background-light: rgba(235, 81, 96, 0.1);
   --clr-nav-dark: #1E1C21;
   --clr-blue: #9395d3;
   --clr-purple: #b836e7;
@@ -331,3 +332,37 @@ body {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+.main__content p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.meet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--clr-background-light);
+    width: 19em;
+    padding: 1em;
+    border-radius: 35px;
+    margin-top: 4rem;
+
+    i {
+      position: relative;
+      bottom: 6px;
+      margin-right: 3px;
+      color: rgb(58, 12, 163);
+      animation: bouncy 400ms alternate-reverse 1s infinite;
+    }
+
+    h3 {
+      color: #3A0CA3;
+
+      span {
+        color: #F72585;
+        margin-left: 10px;
+      }
+    }
+  }
