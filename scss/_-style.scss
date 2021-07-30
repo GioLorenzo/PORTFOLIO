@@ -169,20 +169,23 @@
           }
         }
       }
+
+      .navbar__menu.active {
+        background: #131313;
+        top: 100%;
+        opacity: 1;
+        transition: all 500ms ease;
+        z-index: 99;
+        height: 50vh;
+        font-size: 1.6rem;
+      }
     }
   }
 
-  .navbar__menu.active {
-    background: #131313;
-    top: 100%;
-    opacity: 1;
-    transition: all 500ms ease;
-    z-index: 99;
-    height: 50vh;
-    font-size: 1.6rem;
-  }
+
 
   .navbar__toggle {
+    cursor: pointer;
 
     .bar {
       width: 25px;

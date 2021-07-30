@@ -4,7 +4,7 @@
 
   menu.addEventListener('click', () => {
     menu.classList.toggle('is-active');
-    menuLinks.classList.toggle('active');
+    menuLink.classList.toggle('active');
   })
 
 })(document, window);
