@@ -444,6 +444,10 @@ body {
   align-items: center;
   cursor: pointer;
 }
+.navbar .navbar__container #navbar__logo i {
+  margin-right: 0.5rem;
+  margin-bottom: 4px;
+}
 .navbar .navbar__container .fa-gem {
   margin-right: 0.5rem;
 }
@@ -465,6 +469,10 @@ body {
   padding: 0 1rem;
   height: 100%;
 }
+.navbar .navbar__container .navbar__menu .navbar__item .navbar__link i {
+  margin-right: 1rem;
+  display: none;
+}
 .navbar .navbar__container .navbar__menu .navbar__btn {
   display: flex;
   justify-content: center;
@@ -474,11 +482,15 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+  .navbar {
+    position: sticky;
+    z-index: 99;
+  }
   .navbar .navbar__container {
     align-items: center;
     display: flex;
     height: 80px;
-    z-index: 1;
+    z-index: 99;
     width: 100%;
     max-width: 1300px;
     padding: 0;
@@ -488,7 +500,7 @@ body {
   }
   .navbar .navbar__container .navbar__menu {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     margin: 0;
     width: 100%;
     position: absolute;
@@ -496,20 +508,24 @@ body {
     opacity: 0;
     transition: all 500ms ease;
     height: auto;
-    z-index: -1;
+    z-index: 0;
     background: #131313;
   }
   .navbar .navbar__container .navbar__menu .navbar__btn {
-    padding: 4.2rem 0 3.2rem 0;
+    padding: 2rem 10rem;
   }
   .navbar .navbar__container .navbar__menu .navbar__item {
     width: 100%;
+    height: 100%;
   }
   .navbar .navbar__container .navbar__menu .navbar__item .navbar__link {
-    text-align: center;
-    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
     width: 100%;
-    display: table;
+  }
+  .navbar .navbar__container .navbar__menu .navbar__item .navbar__link i {
+    display: inline-block;
   }
   .navbar .navbar__container .navbar__menu.active {
     background: #131313;
