@@ -378,6 +378,17 @@ body {
     transform: translateY(-7px);
   }
 }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
 :root {
   --clr-bg-main: #ffd9ce;
   --clr-nav-bg: rgb(45, 42, 50);
@@ -647,6 +658,19 @@ body {
 .main {
   background-color: var(--clr-bg-main);
 }
+.main .arrow-container {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin-bottom: 50px;
+}
+.main .arrow-container i {
+  animation: bounce 1500ms infinite ease-out;
+}
 .main .main__container {
   display: flex;
   align-items: center;
@@ -767,7 +791,7 @@ body {
 .projects__main {
   height: 100vh;
   background-color: var(--clr-nav-dark);
-  clip-path: polygon(50% 5%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 0, 45% 0);
+  clip-path: polygon(50% 3%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 0, 45% 0);
 }
 
 /*# sourceMappingURL=style.css.map */
