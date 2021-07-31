@@ -456,12 +456,14 @@ body {
 }
 .navbar .navbar__container #navbar__logo {
   position: relative;
-  font-weight: 800;
+  font-weight: 700;
+  letter-spacing: -0.1rem;
   font-size: 2rem;
+  padding: 0 1rem;
   text-decoration: none;
   align-self: center;
   background-color: black;
-  background-image: linear-gradient(to top, var(--clr-pink-btn) 0%, var(--clr-bg-main) 100%);
+  background-image: linear-gradient(to top, var(--clr-nav-dark) 0%, #606060 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -477,7 +479,7 @@ body {
   margin-right: 1rem;
   margin-bottom: 4px;
   background-color: black;
-  background-image: linear-gradient(to top, var(--clr-pink-btn) 0%, var(--clr-bg-main) 100%);
+  background-image: linear-gradient(to top, var(--clr-nav-dark) 0%, #606060 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -491,7 +493,7 @@ body {
   height: calc(100% + 1rem);
   padding: 1rem;
   z-index: -1;
-  background: var(--clr-nav-dark);
+  background: #fff;
   border-radius: 40px;
 }
 .navbar .navbar__container .fa-gem {
@@ -544,6 +546,7 @@ body {
   }
   .navbar .navbar__container #navbar__logo {
     padding-left: 25px;
+    margin-left: 3rem;
   }
   .navbar .navbar__container .navbar__menu {
     display: grid;
