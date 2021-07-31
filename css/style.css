@@ -630,12 +630,12 @@ body {
 .main {
   background-color: var(--clr-bg-main);
 }
-
-.main__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.main .main__container {
+  display: flex;
   align-items: center;
   justify-self: center;
+  justify-content: space-between;
+  overflow: hidden;
   margin: 0 auto;
   height: 90vh;
   background-color: var(--clr-bg-main);
@@ -644,11 +644,27 @@ body {
   max-width: 1300px;
   padding: 0 50px;
 }
+.main .main__container .main__img--container {
+  flex-grow: 1;
+}
+.main .main__container .main__img--container img {
+  height: 100%;
+  width: 50vw;
+  max-width: 650px;
+  min-width: 400px;
+  float: right;
+}
+
+.main__content {
+  z-index: 3;
+  flex-grow: 0;
+}
 
 .main__content h1 {
   font-size: 4rem;
   line-height: 1.4em;
   letter-spacing: -0.15rem;
+  padding-right: 5px;
   background-color: var(--clr-nav-dark);
   background-image: linear-gradient(to top, var(--clr-pink-dark) 0%, var(--clr-pink-btn) 100%);
   background-size: 100%;
@@ -668,12 +684,6 @@ body {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-}
-
-.main__content p {
-  margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 200;
 }
 
 .meet {
@@ -707,6 +717,21 @@ body {
 .meet h3 span {
   color: var(--clr-blue);
   margin-left: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .main__container {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .main__container .main__content {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
