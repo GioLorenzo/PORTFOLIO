@@ -134,8 +134,8 @@ body {
       content: '';
       position: absolute;
       width: calc(100% + 2rem);
-      height: calc(100% + 1rem);
-      padding: 1rem;
+      height: calc(100% + 0.25rem);
+      padding: 0 1rem;
       z-index: -1;
       background: #fff;
       border-radius: 40px;
@@ -316,7 +316,7 @@ body {
     justify-content: space-between;
     overflow: hidden;
     margin: 0 auto;
-    height: 90vh;
+    height: calc(100vh - 80px);
     background-color: var(--clr-bg-main);
     z-index: 1;
     width: 100%;
@@ -412,7 +412,6 @@ body {
   .main {
     .main__container {
       flex-direction: column;
-      margin-top: 1rem;
 
       .main__img--container {
 
