@@ -651,7 +651,6 @@ body {
 }
 .main .main__container .main__img--container {
   flex-grow: 1;
-  overflow: hidden;
 }
 .main .main__container .main__img--container img {
   height: 100%;
@@ -726,15 +725,17 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-  .main__container {
+  .main .main__container {
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 1rem;
   }
-  .main__container .main__img--container img {
-    width: 40vw;
+  .main .main__container .main__img--container img {
+    width: 60vw;
+    max-width: 440px;
     height: auto;
+    margin-top: 2rem;
   }
-  .main__container .main__content {
+  .main .main__container .main__content {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -742,11 +743,14 @@ body {
     justify-content: center;
     width: 100%;
   }
-  .main__container .main__content h1 {
+  .main .main__container .main__content h1 {
     font-size: 3rem;
   }
-  .main__container .main__content h2 {
+  .main .main__container .main__content h2 {
     font-size: 2rem;
+  }
+  .main .main__container .meet {
+    margin-top: 3rem;
   }
 }
 
