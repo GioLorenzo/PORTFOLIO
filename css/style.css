@@ -399,10 +399,6 @@ body {
   padding: 0;
 }
 
-* {
-  outline: 1px solid #f00 !important;
-}
-
 body {
   background-color: var(--clr-bg-main);
 }
@@ -659,9 +655,9 @@ body {
 }
 .main .main__container .main__img--container img {
   height: 100%;
-  width: 50vw;
+  width: 52vw;
   max-width: 650px;
-  min-width: 200px;
+  min-width: 350px;
   float: right;
 }
 
@@ -733,6 +729,10 @@ body {
   .main__container {
     flex-direction: column;
     margin-top: 4rem;
+  }
+  .main__container .main__img--container img {
+    width: 40vw;
+    height: auto;
   }
   .main__container .main__content {
     margin-top: 4rem;
