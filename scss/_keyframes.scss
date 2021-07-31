@@ -8,3 +8,14 @@
     transform: translateX(-7px);
   }
 }
+
+@keyframes bouncy2 {
+  0%  {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+  }
+}

@@ -314,7 +314,6 @@ body {
     align-items: center;
     justify-self: center;
     justify-content: space-between;
-    overflow: hidden;
     margin: 0 auto;
     height: calc(100vh - 80px);
     background-color: var(--clr-bg-main);
@@ -332,6 +331,7 @@ body {
         max-width: 650px;
         min-width: 350px;
         float: right;
+        z-index: 99;
       }
     }
   }
@@ -417,7 +417,7 @@ body {
 
         img {
           width: 60vw;
-          max-width: 440px;
+          max-width: 420px;
           height: auto;
           margin-top: 2rem;
         }
@@ -445,4 +445,10 @@ body {
       }
     }
   }
+}
+
+.projects__main {
+  height: 100vh;
+  background-color: var(--clr-nav-dark);
+  clip-path: polygon(50% 5%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 0, 45% 0);
 }
