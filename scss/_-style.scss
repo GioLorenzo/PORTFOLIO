@@ -33,7 +33,9 @@
   padding: 0;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   outline: 1px solid #f00 !important;
