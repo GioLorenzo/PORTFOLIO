@@ -350,9 +350,34 @@ body {
         min-width: 250px;
         float: right;
         z-index: 99;
+        
+        .hashtag {
+          animation: wiggle .8s infinite ;
+          transform-origin: 0 0;
+        }
+
+        .squiggle {
+          animation: wiggle2 1s infinite ;
+        }
+
+        .ex {
+          animation: wiggle3 1s infinite ;
+        }
+
+        .tilda1 {
+          animation: wiggle4 1s infinite ease;
+        }
+        .tilda2 {
+          animation: wiggle5 1s infinite ease;
+        }
 
         .circle {
-          animation: wiggle 1 infinite ease;
+          animation: wiggle6 .9s infinite ease;
+          transform-origin: 120px 600px
+        }
+        .pyramid {
+          animation: wiggle6 .9s infinite ease;
+          transform-origin: 720px 300px
         }
       }
     }
