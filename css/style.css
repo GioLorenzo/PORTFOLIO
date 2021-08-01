@@ -459,7 +459,7 @@ body {
 }
 
 .navbar {
-  background: var(--clr-nav-bg);
+  background: #101010;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -489,7 +489,7 @@ body {
   text-decoration: none;
   align-self: center;
   background-color: black;
-  background-image: linear-gradient(to top, var(--clr-nav-dark) 0%, #606060 100%);
+  background-image: linear-gradient(to top, #101010 0%, #404040 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -504,7 +504,7 @@ body {
 .navbar .navbar__container #navbar__logo i {
   margin-right: 1rem;
   background-color: black;
-  background-image: linear-gradient(to top, var(--clr-nav-dark) 0%, #606060 100%);
+  background-image: linear-gradient(to top, #101010 0%, #404040 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -905,7 +905,7 @@ body {
 }
 
 .footer__container {
-  background-color: black;
+  background-color: #101010;
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
@@ -915,7 +915,7 @@ body {
 }
 
 #footer__logo {
-  color: black;
+  color: #101010;
   padding: 1rem;
   border-radius: 50%;
   display: flex;
