@@ -982,7 +982,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 32%;
   max-width: 1000px;
   margin: 40px auto 0 auto;
 }
@@ -1018,6 +1018,10 @@ body {
 
   .footer__link--wrapper {
     justify-content: center;
+  }
+
+  .social__media--wrap {
+    width: 100%;
   }
 }
 
