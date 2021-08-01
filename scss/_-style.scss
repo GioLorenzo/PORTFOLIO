@@ -338,18 +338,20 @@ body {
     background-color: var(--clr-bg-main);
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1500px;
     padding: 0 50px;
 
     .main__img--container {
       flex-grow: 1;
 
       svg {
+        position: relative;
         height: 100%;
-        width: 52vw;
-        max-width: 650px;
+        width: 42vw;
+        max-width: 750px;
         min-width: 250px;
         float: right;
+        top: -35px;
         z-index: 99;
         
         .hashtag {
@@ -486,6 +488,7 @@ body {
         align-items: center;
         justify-content: center;
         width: 100%;
+        margin-left: 0;
 
         h1 {
           font-size: 3rem;
