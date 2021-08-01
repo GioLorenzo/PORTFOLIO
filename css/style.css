@@ -794,7 +794,7 @@ body {
   }
 }
 .portfolio {
-  height: 280vh;
+  height: 100%;
   background-color: var(--clr-nav-dark);
   clip-path: polygon(50% 3%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 0, 45% 0);
 }
@@ -809,7 +809,9 @@ body {
 .portfolio h1 {
   color: white;
   font-size: 4rem;
-  margin: 10rem 0;
+  margin-top: 10rem;
+  letter-spacing: -0.075rem;
+  text-align: center;
 }
 .portfolio .portfolio-container {
   margin-top: 1rem;
@@ -817,9 +819,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0;
+  margin-bottom: 4rem;
   padding: 0;
-  height: 100%;
+  height: auto;
 }
 .portfolio .portfolio-container img {
   width: 40vw;
@@ -891,6 +893,7 @@ body {
   padding: 1em 1em;
   transition: all 150ms ease;
   border-radius: 25px;
+  text-decoration: none;
 }
 .portfolio .portfolio-container .portfolio-text .button-container button:hover {
   border: 3px solid black;
