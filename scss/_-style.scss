@@ -343,7 +343,7 @@ body {
     .main__img--container {
       flex-grow: 1;
 
-      img {
+      svg {
         height: 100%;
         width: 52vw;
         max-width: 650px;
@@ -352,7 +352,7 @@ body {
         z-index: 99;
 
         .circle {
-          fill: #9395d3;
+          animation: wiggle 1 infinite ease;
         }
       }
     }
@@ -438,7 +438,7 @@ body {
 
       .main__img--container {
 
-        img {
+        svg {
           width: 60vw;
           max-width: 420px;
           height: auto;

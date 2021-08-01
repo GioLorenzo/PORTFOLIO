@@ -391,7 +391,7 @@ body {
 }
 @keyframes wiggle {
   0%, 20%, 60%, 100% {
-    transform: rotate(0deg);
+    transform: rotate(50deg);
   }
   40% {
     transform: rotate(30deg);
@@ -704,7 +704,7 @@ body {
 .main .main__container .main__img--container {
   flex-grow: 1;
 }
-.main .main__container .main__img--container img {
+.main .main__container .main__img--container svg {
   height: 100%;
   width: 52vw;
   max-width: 650px;
@@ -712,8 +712,8 @@ body {
   float: right;
   z-index: 99;
 }
-.main .main__container .main__img--container img .circle {
-  fill: #9395d3;
+.main .main__container .main__img--container svg .circle {
+  animation: wiggle 1 infinite ease;
 }
 
 .main__content {
@@ -785,7 +785,7 @@ body {
   .main .main__container {
     flex-direction: column;
   }
-  .main .main__container .main__img--container img {
+  .main .main__container .main__img--container svg {
     width: 60vw;
     max-width: 420px;
     height: auto;
