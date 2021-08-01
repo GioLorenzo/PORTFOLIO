@@ -16,5 +16,12 @@
   gsap.from('.anim2', { duration: 1.5, opacity: 0, y: 100, });
   gsap.from('.anim3', { duration: 1, delay: 1.1, x: 200, opacity: 0 });
   gsap.from('.anim4', { duration: 1, delay: 2.1, y: 200 });
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.anim5',
+    }
+  });
+
+  tl.from('.anim5', {duration: 1, opacity: 0, y: 40, delay: .3})
 
 })(document, window);
