@@ -707,7 +707,7 @@ body {
 }
 
 .main__content h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 1.4em;
   letter-spacing: -0.15rem;
   padding-right: 5px;
@@ -721,7 +721,7 @@ body {
 }
 
 .main__content h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 0.9em;
   background-color: var(--clr-nav-dark);
   background-image: linear-gradient(to top, var(--clr-purple) 0%, var(--clr-blue) 100%);
@@ -776,7 +776,6 @@ body {
     margin-top: 2rem;
   }
   .main .main__container .main__content {
-    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -787,6 +786,7 @@ body {
     font-size: 3rem;
   }
   .main .main__container .main__content h2 {
+    margin-top: 0;
     font-size: 2rem;
   }
   .main .main__container .meet {

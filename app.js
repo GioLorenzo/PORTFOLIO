@@ -16,6 +16,5 @@
   gsap.from('.anim2', { duration: 1.5, opacity: 0, y: 100, });
   gsap.from('.anim3', { duration: 1, delay: 1.1, x: 200, opacity: 0 });
   gsap.from('.anim4', { duration: 1, delay: 2.1, y: 200 });
-  gsap.from('.anim5', { scrollTrigger: '#work', duration: 1, y: 50, opacity: 0, delay: 1 });
 
 })(document, window);
