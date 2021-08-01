@@ -310,6 +310,7 @@ body {
 
 .main {
   background-color: var(--clr-bg-main);
+  overflow: hidden;
 
   .arrow-container {
     position: absolute;
@@ -363,6 +364,7 @@ body {
   font-size: 5rem;
   line-height: 1.4em;
   letter-spacing: -0.15rem;
+  margin: 0;
   padding-right: 5px;
   background-color: var(--clr-nav-dark);
   background-image: linear-gradient(to top, var(--clr-pink-dark) 0%, var(--clr-pink-btn) 100%);
