@@ -420,6 +420,10 @@ body {
   padding: 0;
 }
 
+* {
+  outline: 1px solid #f00 !important;
+}
+
 body {
   background-color: var(--clr-bg-main);
 }
@@ -790,7 +794,7 @@ body {
   }
 }
 .portfolio {
-  height: 150vh;
+  height: 280vh;
   background-color: var(--clr-nav-dark);
   clip-path: polygon(50% 3%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 0, 45% 0);
 }
@@ -800,21 +804,29 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: sspace-between;
+}
+.portfolio h1 {
+  color: white;
+  font-size: 4rem;
+  margin: 10rem 0;
 }
 .portfolio .portfolio-container {
-  margin-top: 1em;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 0;
   padding: 0;
+  height: 100%;
 }
 .portfolio .portfolio-container img {
-  width: 60vw;
+  width: 40vw;
+  min-width: 350px;
+  height: auto;
   border-radius: 25px;
-  filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.301));
+  filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.5));
 }
 .portfolio .portfolio-container .portfolio-text {
   display: flex;
@@ -829,23 +841,25 @@ body {
   justify-content: space-between;
   margin-top: 5px;
   height: 170px;
-  width: 60%;
+  width: 100%;
 }
 .portfolio .portfolio-container .portfolio-text .subtitle {
   padding: 0;
   background: white;
-  color: #3A0CA3;
+  color: var(--clr-nav-dark);
   font-weight: 600;
   letter-spacing: 0.335rem;
   line-height: 1em;
   text-align: center;
   border-radius: 3px;
+  margin-top: 1rem;
 }
 .portfolio .portfolio-container .portfolio-text .featured-title {
   font-weight: 800;
+  color: #fff;
   font-size: 34px;
   letter-spacing: 0;
-  margin-bottom: 10px;
+  margin: 0.5rem 0;
 }
 .portfolio .portfolio-container .portfolio-text .featured-desc {
   display: none;
@@ -858,7 +872,7 @@ body {
   width: auto;
   display: grid;
   grid-template-rows: 1/1;
-  grid-template: "a b" 40vw;
+  grid-template: "a b" 20vw;
   gap: 2em;
   margin: 20px 0;
 }
@@ -866,15 +880,15 @@ body {
   outline: none;
   border-style: none;
   height: 50px;
-  width: 100%;
-  background: black;
+  width: auto;
+  background: var(--clr-blue);
   border-radius: 25px;
-  border: 3px solid black;
+  border: 3px solid #fff;
 }
 .portfolio .portfolio-container .portfolio-text .button-container button a {
   color: white;
   font-weight: 600;
-  padding: 1em 7em;
+  padding: 1em 1em;
   transition: all 150ms ease;
   border-radius: 25px;
 }
