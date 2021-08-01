@@ -911,6 +911,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 300px;
 }
 
 #footer__logo {
@@ -992,6 +993,11 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 240px;
+}
+
+.social__icon--link:hover {
+  transform: scale(130%);
+  transition: 175ms ease;
 }
 
 .social__logo {
