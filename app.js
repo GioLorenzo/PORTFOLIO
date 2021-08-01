@@ -12,4 +12,8 @@
   })
   });
 
+  gsap.from('.anim1', { duration: 1, y: -80 });
+  gsap.from('.anim2', { duration: 1.5, opacity: 0, y: 100, });
+  gsap.from('.anim3', { duration: 1, delay: 1.1, x: 200, opacity: 0 });
+
 })(document, window);
