@@ -5,6 +5,6 @@
   menu.addEventListener('click', () => {
     menu.classList.toggle('is-active');
     menuLink.classList.toggle('active');
-  })
+  });
 
 })(document, window);
