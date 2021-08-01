@@ -789,10 +789,102 @@ body {
     margin-top: 3rem;
   }
 }
-.projects__main {
+.portfolio {
   height: 100vh;
   background-color: var(--clr-nav-dark);
   clip-path: polygon(50% 3%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 0, 45% 0);
+}
+
+.portfolio {
+  margin: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio .portfolio-container {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+.portfolio .portfolio-container img {
+  width: 60vw;
+  border-radius: 25px;
+  filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.301));
+}
+.portfolio .portfolio-container .portfolio-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.portfolio .portfolio-container .portfolio-text .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  height: 170px;
+  width: 60%;
+}
+.portfolio .portfolio-container .portfolio-text .subtitle {
+  padding: 0;
+  background: white;
+  color: #3A0CA3;
+  font-weight: 600;
+  letter-spacing: 0.335rem;
+  line-height: 1em;
+  text-align: center;
+  border-radius: 3px;
+}
+.portfolio .portfolio-container .portfolio-text .featured-title {
+  font-weight: 800;
+  font-size: 34px;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+.portfolio .portfolio-container .portfolio-text .featured-desc {
+  display: none;
+  font-weight: 400;
+  letter-spacing: 0.045em;
+  line-height: 1.645;
+  color: white;
+}
+.portfolio .portfolio-container .portfolio-text .button-container {
+  width: auto;
+  display: grid;
+  grid-template-rows: 1/1;
+  grid-template: "a b" 40vw;
+  gap: 2em;
+  margin: 20px 0;
+}
+.portfolio .portfolio-container .portfolio-text .button-container button {
+  outline: none;
+  border-style: none;
+  height: 50px;
+  width: 100%;
+  background: black;
+  border-radius: 25px;
+  border: 3px solid black;
+}
+.portfolio .portfolio-container .portfolio-text .button-container button a {
+  color: white;
+  font-weight: 600;
+  padding: 1em 7em;
+  transition: all 150ms ease;
+  border-radius: 25px;
+}
+.portfolio .portfolio-container .portfolio-text .button-container button:hover {
+  border: 3px solid black;
+  color: black;
+  background-color: white;
+}
+.portfolio .portfolio-container .portfolio-text .button-container button:hover a {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
