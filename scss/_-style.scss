@@ -350,6 +350,10 @@ body {
         min-width: 250px;
         float: right;
         z-index: 99;
+
+        .circle {
+          fill: #9395d3;
+        }
       }
     }
   }

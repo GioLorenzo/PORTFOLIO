@@ -389,6 +389,17 @@ body {
     transform: translateY(-5px);
   }
 }
+@keyframes wiggle {
+  0%, 20%, 60%, 100% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(30deg);
+  }
+  80% {
+    transform: rotate(-30deg);
+  }
+}
 :root {
   --clr-bg-main: #ffd9ce;
   --clr-nav-bg: rgb(45, 42, 50);
@@ -700,6 +711,9 @@ body {
   min-width: 250px;
   float: right;
   z-index: 99;
+}
+.main .main__container .main__img--container img .circle {
+  fill: #9395d3;
 }
 
 .main__content {
