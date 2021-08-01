@@ -5,7 +5,8 @@
 :root {
   --clr-bg-main: #ffd9ce;
   --clr-nav-bg: rgb(45, 42, 50);
-  --clr-background-light: rgba(235, 81, 96, 0.1);
+  --clr-background-light: rgba(235, 81, 96, 0.3);
+  --clr-background-lighter: rgba(235, 81, 96, 0.1);
   --clr-nav-dark: #1E1C21;
   --clr-blue: #9395d3;
   --clr-purple: #b836e7;
@@ -354,30 +355,37 @@ body {
         .hashtag {
           animation: wiggle .8s infinite ;
           transform-origin: 0 0;
+          fill: var(--clr-background-light);
         }
 
         .squiggle {
           animation: wiggle2 1s infinite ;
+          fill: var(--clr-background-light);
         }
 
         .ex {
           animation: wiggle3 1s infinite ;
+          fill: var(--clr-background-light);
         }
 
         .tilda1 {
-          animation: wiggle4 1s infinite ease;
+          animation: wiggle4 1s infinite ;
+          fill: var(--clr-background-light);
         }
         .tilda2 {
-          animation: wiggle5 1s infinite ease;
+          animation: wiggle5 1s infinite ;
+          fill: var(--clr-background-light);
         }
 
         .circle {
-          animation: wiggle6 .9s infinite ease;
-          transform-origin: 120px 600px
+          animation: wiggle6 .9s infinite ;
+          transform-origin: 120px 600px;
+          fill: var(--clr-background-light);
         }
         .pyramid {
-          animation: wiggle6 .9s infinite ease;
-          transform-origin: 720px 300px
+          animation: wiggle6 .9s infinite ;
+          transform-origin: 720px 300px;
+          fill: var(--clr-background-light);
         }
       }
     }
@@ -420,7 +428,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--clr-background-light);
+  background-color: var(--clr-background-lighter);
   width: 19em;
   padding: 1em;
   border-radius: 35px;

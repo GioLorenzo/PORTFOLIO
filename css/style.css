@@ -391,21 +391,21 @@ body {
 }
 @keyframes wiggle {
   0%, 20%, 60%, 100% {
-    transform: rotate(1deg);
+    transform: rotate(0.5deg);
   }
   40% {
-    transform: rotate(2deg);
+    transform: rotate(1deg);
   }
   80% {
-    transform: rotate(-1deg);
+    transform: rotate(-0.5deg);
   }
 }
 @keyframes wiggle2 {
   0%, 10%, 50%, 100% {
-    transform: rotate(1deg);
+    transform: rotate(0.5deg);
   }
   30% {
-    transform: rotate(2deg);
+    transform: rotate(1.5deg);
   }
   70% {
     transform: rotate(-1deg);
@@ -416,13 +416,13 @@ body {
     transform: translate(0px, 0px);
   }
   40% {
-    transform: translate(4px, 5px);
+    transform: translate(2px, 3px);
   }
   70% {
-    transform: translate(6px, -3px);
+    transform: translate(4px, -2px);
   }
   90% {
-    transform: translate(10px, 3px);
+    transform: translate(5px, 2px);
   }
 }
 @keyframes wiggle4 {
@@ -446,16 +446,17 @@ body {
     transform: rotate(1deg);
   }
   40% {
-    transform: rotate(15deg);
+    transform: rotate(3deg);
   }
   80% {
-    transform: rotate(-10deg);
+    transform: rotate(-3deg);
   }
 }
 :root {
   --clr-bg-main: #ffd9ce;
   --clr-nav-bg: rgb(45, 42, 50);
-  --clr-background-light: rgba(235, 81, 96, 0.1);
+  --clr-background-light: rgba(235, 81, 96, 0.3);
+  --clr-background-lighter: rgba(235, 81, 96, 0.1);
   --clr-nav-dark: #1E1C21;
   --clr-blue: #9395d3;
   --clr-purple: #b836e7;
@@ -767,26 +768,33 @@ body {
 .main .main__container .main__img--container svg .hashtag {
   animation: wiggle 0.8s infinite;
   transform-origin: 0 0;
+  fill: var(--clr-background-light);
 }
 .main .main__container .main__img--container svg .squiggle {
   animation: wiggle2 1s infinite;
+  fill: var(--clr-background-light);
 }
 .main .main__container .main__img--container svg .ex {
   animation: wiggle3 1s infinite;
+  fill: var(--clr-background-light);
 }
 .main .main__container .main__img--container svg .tilda1 {
-  animation: wiggle4 1s infinite ease;
+  animation: wiggle4 1s infinite;
+  fill: var(--clr-background-light);
 }
 .main .main__container .main__img--container svg .tilda2 {
-  animation: wiggle5 1s infinite ease;
+  animation: wiggle5 1s infinite;
+  fill: var(--clr-background-light);
 }
 .main .main__container .main__img--container svg .circle {
-  animation: wiggle6 0.9s infinite ease;
+  animation: wiggle6 0.9s infinite;
   transform-origin: 120px 600px;
+  fill: var(--clr-background-light);
 }
 .main .main__container .main__img--container svg .pyramid {
-  animation: wiggle6 0.9s infinite ease;
+  animation: wiggle6 0.9s infinite;
   transform-origin: 720px 300px;
+  fill: var(--clr-background-light);
 }
 
 .main__content {
@@ -825,7 +833,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--clr-background-light);
+  background-color: var(--clr-background-lighter);
   width: 19em;
   padding: 1em;
   border-radius: 35px;
