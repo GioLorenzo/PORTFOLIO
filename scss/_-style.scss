@@ -648,11 +648,11 @@ body {
 }
 
 .footer__link--items>h2 {
-  color: #fff;
+  color: var(--clr-bg-main);
 }
 
 .footer__link--items a {
-  color: #fff;
+  color: var(--clr-bg-main);
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -663,7 +663,7 @@ body {
 }
 
 .social__icon--link {
-  color: #fff;
+  color: var(--clr-bg-main);
   font-size: 24px;
   padding: 1rem;
 }
@@ -696,7 +696,7 @@ body {
 }
 
 .social__logo {
-  color: #fff;
+  color: var(--clr-bg-main);
   justify-self: flex-start;
   margin-left: 20px;
   cursor: pointer;
