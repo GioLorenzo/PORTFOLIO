@@ -998,7 +998,6 @@ body {
   text-decoration: none;
 }
 .portfolio .portfolio-container .portfolio-text .button-container button:hover {
-  border: 3px solid black;
   color: black;
   background-color: white;
 }
