@@ -620,11 +620,12 @@ body {
           }
 
           &:hover {
-            border: 3px solid black;
-            background-color: var(--clr-bg-main);
+            // border: 3px solid black;
+            background-color: var(--clr-background-light);
+            transition: all 150ms ease;
 
             a {
-              color: var(--clr-nav-dark);
+              // color: var(--clr-nav-dark);
             }
           }
 
