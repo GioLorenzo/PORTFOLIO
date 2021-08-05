@@ -1002,7 +1002,7 @@ body {
   background-color: white;
 }
 .portfolio .portfolio-container .portfolio-text .button-container button:hover a {
-  color: var(--clr-background-light);
+  color: var(--clr-nav-dark);
 }
 
 .footer__container {
