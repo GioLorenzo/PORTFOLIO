@@ -1004,8 +1004,9 @@ body {
   background-color: var(--clr-pink-btn);
   transition: all 200ms ease;
   transform: translate(2px, -2px);
-  box-shadow: -7px 7px 10px 1px #101010;
+  box-shadow: -7px 4px 8px 2px #101010;
 }
+
 .footer__container {
   background-color: #101010;
   padding: 2rem 0;

@@ -357,39 +357,41 @@ body {
         float: right;
         top: -35px;
         z-index: 99;
-        
+
         .hashtag {
-          animation: wiggle .8s infinite ;
+          animation: wiggle .8s infinite;
           transform-origin: 0 0;
           fill: var(--clr-background-light);
         }
 
         .squiggle {
-          animation: wiggle2 1s infinite ;
+          animation: wiggle2 1s infinite;
           fill: var(--clr-background-light);
         }
 
         .ex {
-          animation: wiggle3 1s infinite ;
+          animation: wiggle3 1s infinite;
           fill: var(--clr-background-light);
         }
 
         .tilda1 {
-          animation: wiggle4 1s infinite ;
+          animation: wiggle4 1s infinite;
           fill: var(--clr-background-light);
         }
+
         .tilda2 {
-          animation: wiggle5 1s infinite ;
+          animation: wiggle5 1s infinite;
           fill: var(--clr-background-light);
         }
 
         .circle {
-          animation: wiggle6 .9s infinite ;
+          animation: wiggle6 .9s infinite;
           transform-origin: 120px 600px;
           fill: var(--clr-background-light);
         }
+
         .pyramid {
-          animation: wiggle6 .9s infinite ;
+          animation: wiggle6 .9s infinite;
           transform-origin: 720px 300px;
           fill: var(--clr-background-light);
         }
@@ -489,7 +491,7 @@ body {
       }
 
       .main__content {
-        
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -628,15 +630,11 @@ body {
 
           &:hover,
           &:focus {
-            // border: 3px solid black;
             background-color: var(--clr-pink-btn);
             transition: all 200ms ease;
             transform: translate(2px, -2px);
-            box-shadow: -7px 7px 10px 1px #101010;
+            box-shadow: -7px 4px 8px 2px #101010;
 
-            a {
-              // color: var(--clr-nav-dark);
-            }
           }
 
 
@@ -751,7 +749,7 @@ body {
 .social__icon--link:focus {
   transform: scale(130%);
   color: #fff;
-  transition:  all 175ms ease;
+  transition: all 175ms ease;
 }
 
 .social__logo {
