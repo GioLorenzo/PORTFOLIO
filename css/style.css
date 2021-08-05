@@ -858,7 +858,7 @@ body {
   border-radius: 30px;
   transition: all 200ms ease;
 }
-.meet h3 a:hover {
+.meet h3 a:hover, .meet h3 a:focus {
   background: rgba(45, 42, 50, 0.8);
   color: white;
 }
@@ -1000,7 +1000,7 @@ body {
   border-radius: 25px;
   text-decoration: none;
 }
-.portfolio .portfolio-container .portfolio-text .button-container button:hover {
+.portfolio .portfolio-container .portfolio-text .button-container button:hover, .portfolio .portfolio-container .portfolio-text .button-container button:focus {
   background-color: var(--clr-pink-btn);
   transition: all 200ms ease;
   transform: translate(2px, -2px);
@@ -1063,7 +1063,8 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.footer__link--items a:hover {
+.footer__link--items a:hover,
+.footer__link--items a:focus {
   color: var(--clr-pink-dark);
   transition: 300ms ease;
 }
@@ -1098,7 +1099,8 @@ body {
   width: 240px;
 }
 
-.social__icon--link:hover {
+.social__icon--link:hover,
+.social__icon--link:focus {
   transform: scale(130%);
   color: #fff;
   transition: all 175ms ease;
