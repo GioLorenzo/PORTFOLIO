@@ -998,8 +998,8 @@ body {
   text-decoration: none;
 }
 .portfolio .portfolio-container .portfolio-text .button-container button:hover {
-  color: black;
-  background-color: white;
+  border: 3px solid black;
+  background-color: var(--clr-bg-main);
 }
 .portfolio .portfolio-container .portfolio-text .button-container button:hover a {
   color: var(--clr-nav-dark);
