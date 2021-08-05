@@ -621,8 +621,10 @@ body {
 
           &:hover {
             // border: 3px solid black;
-            background-color: var(--clr-background-light);
-            transition: all 150ms ease;
+            background-color: var(--clr-pink-btn);
+            transition: all 200ms ease;
+            transform: translate(2px, -2px);
+            box-shadow: -7px 7px 10px 1px #101010;
 
             a {
               // color: var(--clr-nav-dark);
