@@ -323,6 +323,10 @@ body {
     height: 70px;
     margin-bottom: 50px;
 
+    a {
+      color: #101010;
+    }
+
     i {
       animation: bounce 1500ms infinite ease-out;
     }
@@ -441,6 +445,8 @@ body {
     margin-right: 10px;
     color: var(--clr-purple);
     animation: bouncy 400ms alternate-reverse 1s infinite;
+
+
   }
 
   h3 {

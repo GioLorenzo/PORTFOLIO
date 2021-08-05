@@ -738,6 +738,9 @@ body {
   height: 70px;
   margin-bottom: 50px;
 }
+.main .arrow-container a {
+  color: #101010;
+}
 .main .arrow-container i {
   animation: bounce 1500ms infinite ease-out;
 }
