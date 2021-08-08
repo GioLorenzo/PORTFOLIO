@@ -900,8 +900,6 @@ body {
 .wave-container {
   position: relative;
   height: 10rem;
-  width: 100vw;
-  background-color: blue;
   margin: 0;
   padding: 0;
 }
