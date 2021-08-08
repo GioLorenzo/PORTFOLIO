@@ -550,18 +550,18 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: sspace-between;
+  justify-content: space-between;
 
   h1 {
     color: white;
     font-size: 4rem;
-    margin-top: 1rem;
+    // margin-top: 1rem;
     letter-spacing: -0.075rem;
     text-align: center;
   }
 
   .portfolio-container {
-    margin-top: 1rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
