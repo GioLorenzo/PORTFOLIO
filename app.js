@@ -43,7 +43,7 @@
     delay: .3,
     opacity: 0,
     y: 40,
-    delay: .4,
+    
     scrollTrigger: {
       trigger: '.anim5',
     }
@@ -53,7 +53,7 @@
     delay: .3,
     opacity: 0,
     y: 40,
-    delay: .4,
+    delay: .3,
     scrollTrigger: {
       trigger: '.anim6',
     }
@@ -63,7 +63,7 @@
     delay: .3,
     opacity: 0,
     y: 40,
-    delay: .4,
+    delay: .3,
     scrollTrigger: {
       trigger: '.anim7',
     }
@@ -73,7 +73,7 @@
     delay: .3,
     opacity: 0,
     y: 40,
-    delay: .4,
+    delay: .3,
     scrollTrigger: {
       trigger: '.anim8',
     }
@@ -83,7 +83,7 @@
     delay: .3,
     opacity: 0,
     y: 40,
-    delay: .4,
+    delay: .3,
     scrollTrigger: {
       trigger: '.anim9',
     }
@@ -93,7 +93,7 @@
     delay: .3,
     opacity: 0,
     y: 40,
-    delay: .4,
+    delay: .3,
     scrollTrigger: {
       trigger: '.anim10',
     }
