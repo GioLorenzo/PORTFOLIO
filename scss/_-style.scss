@@ -539,7 +539,12 @@ body {
 
 }
 
+#work {
+  scroll-margin-top: 8em;
+}
+
 .portfolio {
+  position: relative;
   height: 100%;
   background-color: var(--clr-nav-dark);
   padding-top: 0;
