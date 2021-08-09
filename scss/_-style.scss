@@ -565,13 +565,12 @@ body {
   h1 {
     color: white;
     font-size: 4rem;
-    // margin-top: 1rem;
+    margin-bottom: 8rem;
     letter-spacing: -0.075rem;
     text-align: center;
   }
 
   .portfolio-container {
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -628,11 +627,10 @@ body {
         text-align: center;
         width: 50%;
         min-width: 340px;
-        background: pink;
-        font-weight: 400;
+        font-weight: 200;
         letter-spacing: 0.045em;
         line-height: 1.645;
-        color: white;
+        color: #fefefe;
       }
 
       .button-container {
@@ -650,10 +648,10 @@ body {
           width: auto;
           background: var(--clr-pink-dark);
           border-radius: 25px;
-          border: 3px solid #fff;
+          border: 3px solid #fefefe;
 
           a {
-            color: white;
+            color: #fefefe;
             font-weight: 600;
             padding: 1em 1em;
             transition: all 150ms ease;
