@@ -34,52 +34,69 @@
     y: 200,
     opacity: 0
   });
-  let tl = gsap.timeline({
-    scrollTrigger: {
-      trigger: '.anim5',
-      trigger: 'anim6',
-      trigger: 'anim7',
-      trigger: 'anim8',
-      trigger: 'anim9',
-      trigger: 'anim10'
-    }
-  });
+
+
+  let tl = gsap;
 
   tl.from('.anim5', {
     duration: 1,
+    delay: .3,
     opacity: 0,
     y: 40,
-    delay: .3
+    delay: .4,
+    scrollTrigger: {
+      trigger: '.anim5',
+    }
   })
   tl.from('.anim6', {
     duration: 1,
+    delay: .3,
     opacity: 0,
     y: 40,
-    delay: .3
+    delay: .4,
+    scrollTrigger: {
+      trigger: '.anim6',
+    }
   })
   tl.from('.anim7', {
     duration: 1,
+    delay: .3,
     opacity: 0,
     y: 40,
-    delay: .3
+    delay: .4,
+    scrollTrigger: {
+      trigger: '.anim7',
+    }
   })
   tl.from('.anim8', {
     duration: 1,
+    delay: .3,
     opacity: 0,
     y: 40,
-    delay: .3
+    delay: .4,
+    scrollTrigger: {
+      trigger: '.anim8',
+    }
   })
   tl.from('.anim9', {
     duration: 1,
+    delay: .3,
     opacity: 0,
     y: 40,
-    delay: .3
+    delay: .4,
+    scrollTrigger: {
+      trigger: '.anim9',
+    }
   })
   tl.from('.anim10', {
     duration: 1,
+    delay: .3,
     opacity: 0,
     y: 40,
-    delay: .3
+    delay: .4,
+    scrollTrigger: {
+      trigger: '.anim10',
+    }
   })
 
 })(document, window);
