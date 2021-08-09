@@ -574,10 +574,6 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-  outline: 1px solid #f00 !important;
-}
-
 body {
   background-color: var(--clr-bg-main);
 }
