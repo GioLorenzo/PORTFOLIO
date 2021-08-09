@@ -685,6 +685,7 @@ body {
 }
 .navbar .navbar__container .navbar__menu .navbar__item .navbar__link {
   color: #fff;
+  font-weight: 300;
   display: flex;
   align-items: center;
   justify-content: center;
