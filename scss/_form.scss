@@ -9,4 +9,24 @@ form {
   display: flex;
   flex-direction: column;
   gap: 3em;
+  text-align: center;
+
+  label {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    input {
+      margin-top: 1em;
+    }
+
+    textarea {
+      margin-top: 1em;
+    }
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
 }
