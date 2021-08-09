@@ -39,9 +39,9 @@ html {
   scroll-behavior: smooth;
 }
 
-// * {
-//   outline: 1px solid #f00 !important;
-// }
+* {
+  outline: 1px solid #f00 !important;
+}
 
 body {
   background-color: var(--clr-bg-main);
@@ -536,6 +536,7 @@ body {
   left: 0;
   height: auto;
   width: 100%;
+
   path {
     width: 100vw;
   }
@@ -570,12 +571,11 @@ body {
   }
 
   .portfolio-container {
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 4rem;
     padding: 0;
     height: auto;
 
@@ -589,10 +589,7 @@ body {
     }
 
     .portfolio-text {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
+      height: 400px;
 
       .inner {
         display: flex;
@@ -622,11 +619,16 @@ body {
         color: #fff;
         font-size: 34px;
         letter-spacing: 0;
+        text-align: center;
         margin: .5rem 0;
+
       }
 
       .featured-desc {
-        display: none;
+        text-align: center;
+        width: 50%;
+        min-width: 340px;
+        background: pink;
         font-weight: 400;
         letter-spacing: 0.045em;
         line-height: 1.645;
