@@ -10,6 +10,12 @@ form {
   flex-direction: column;
   gap: 3em;
   text-align: center;
+ 
+  h2 {
+    font-size: 3rem;
+    margin: 0 1em;
+    max-width: 100vw;
+  }
 
   label {
     font-size: 2em;
@@ -21,7 +27,7 @@ form {
     align-items: center;
 
     input {
-      background-color: ;
+      background-color: lighten(#ffd9ce, 5%);
       font-size: .75em;
       max-width: 100vw;
       margin-top: .5em;
@@ -54,9 +60,6 @@ form {
     }
   }
 
-  h2 {
-    font-size: 3rem;
-  }
 
   button {
     margin: auto;
