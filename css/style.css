@@ -1126,6 +1126,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 330px;
+  z-index: 99;
 }
 
 #footer__logo {
@@ -1141,6 +1142,7 @@ body {
 }
 
 .footer__links {
+  z-index: 99;
   width: 80%;
   max-width: 1000px;
   display: flex;
