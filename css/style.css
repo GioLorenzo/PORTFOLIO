@@ -704,6 +704,10 @@ body {
   padding: 0 1rem 0 1rem;
   width: 100%;
 }
+.navbar .navbar__container .navbar__menu .navbar__btn .last-button {
+  padding-right: 0;
+  margin: 0;
+}
 
 @media screen and (max-width: 960px) {
   .navbar {
