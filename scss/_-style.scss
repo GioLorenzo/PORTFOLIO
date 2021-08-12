@@ -39,12 +39,13 @@ html {
   scroll-behavior: smooth;
 }
 
-// * {
-//   outline: 1px solid #f00 !important;
-// }
+* {
+  outline: 1px solid #f00 !important;
+}
 
 body {
   background-color: var(--clr-bg-main);
+  
 }
 
 .button {
@@ -87,8 +88,8 @@ body {
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
-  top: 0;
   padding: 0 55px;
+  top: 0;
   z-index: 99;
 
   .navbar__container {
@@ -199,6 +200,7 @@ body {
   .navbar {
     position: sticky;
     z-index: 99;
+    padding: 0;
 
     .navbar__container {
       align-items: center;
