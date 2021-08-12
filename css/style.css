@@ -625,9 +625,8 @@ body {
   height: 80px;
   z-index: 2;
   width: 100%;
-  max-width: 1300px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0;
 }
 .navbar .navbar__container #navbar__logo {
   position: relative;
@@ -717,7 +716,6 @@ body {
     height: 80px;
     z-index: 99;
     width: 100vw;
-    max-width: 1300px;
     padding: 0;
   }
   .navbar .navbar__container #navbar__logo {
