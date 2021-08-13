@@ -707,7 +707,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem 0 1rem;
+  padding: 0;
   width: 100%;
 }
 .navbar .navbar__container .navbar__menu .navbar__btn .last-button {
@@ -1129,7 +1129,7 @@ body {
 
 .footer__container {
   background-color: #101010;
-  padding: 2rem 0;
+  padding: 2rem 55px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1249,6 +1249,12 @@ body {
   .footer__link--items {
     align-items: center;
     text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .footer-links-wrap a {
+    padding: 0 0.5rem;
   }
 
   .footer__link--wrapper {
@@ -1257,6 +1263,13 @@ body {
 
   .social__media--wrap {
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: blue;
+  }
+  .social__media--wrap .last-button {
+    padding: 1rem;
   }
 }
 
