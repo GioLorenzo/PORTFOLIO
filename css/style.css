@@ -574,10 +574,6 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-  outline: 1px solid #f00 !important;
-}
-
 body {
   background-color: var(--clr-bg-main);
 }
@@ -1170,7 +1166,7 @@ body {
 .footer__link--items {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   text-align: left;
   width: 100%;
   box-sizing: border-box;
@@ -1181,7 +1177,7 @@ body {
   flex-direction: column;
   gap: 0.5rem;
   height: 100%;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
@@ -1282,7 +1278,6 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: blue;
   }
   .social__media--wrap .last-button {
     padding: 1rem;
