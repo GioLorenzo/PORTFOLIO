@@ -1190,17 +1190,17 @@ body {
 }
 
 .footer__link--items h2 {
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   font-weight: 300;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 0.8rem;
 }
 
 .footer__link--items a {
   color: var(--clr-bg-main);
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: none;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .footer__link--items a:hover,
