@@ -1186,7 +1186,7 @@ body {
   gap: 0.5rem;
   height: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: flex;
 }
 
 .footer__link--items h2 {
@@ -1198,6 +1198,7 @@ body {
 
 .footer__link--items a {
   color: var(--clr-bg-main);
+  font-size: 0.8rem;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
